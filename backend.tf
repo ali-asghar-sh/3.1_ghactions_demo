@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "ali-tf-test-bucket"
+    bucket = "sctp-ce10-tfstate"
     key    = "terraform.tfstate"
     region = "ap-southeast-1"
   }
